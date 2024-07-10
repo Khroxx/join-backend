@@ -7,36 +7,35 @@ local port on 127.0.0.1:8000 for backend connection
 # Start backend server:
 1. Clone repository and cd into it
 ```bash
-    git clone https://github.com/Khroxx/join-backend.git
+git clone https://github.com/Khroxx/join-backend.git
 ```
 ```bash
-    cd join-backend/
+cd join-backend/
 ```
 2. Create and virtual environment
 ```bash 
-    python -m venv env
+python -m venv env
 ```
 ## Select the correct Interpreter
 Linux:
 ```bash
-    source env/bin/activate  
+source env/bin/activate  
 ```
 Windows :
 ```bash
-    source env/Scripts/activate
+source env/Scripts/activate
 ```
 3. Install requirements and migrations
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 ```bash
-    python manage.py makemigrations
+python manage.py makemigrations
 ```
 ```bash
-    python manage.py migrate
-
+python manage.py migrate
 ```
 4. Start the Development Server
 ```bash
-    python manage.py runserver
+python manage.py runserver
 ```
