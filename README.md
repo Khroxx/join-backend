@@ -6,6 +6,12 @@ local port on 127.0.0.1:8000 for backend connection
 
 # Start backend server:
 1. Clone repository and cd into it
+```bash
+    git clone https://github.com/Khroxx/join-backend.git
+```
+```bash
+    cd join-backend/
+```
 2. Create and virtual environment
 ```bash 
     python -m venv env
