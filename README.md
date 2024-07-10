@@ -2,7 +2,7 @@
 This is a python/django written backend for my Join project (Kanban-Board) for Basic CRUD actions and user authentication
 Create, Read, Update and Delete database models for User, Todos, Subtasks 
 Login and Register yourself
-local port on 127.0.0.1:8000 for backend connection s
+local port on 127.0.0.1:8000 for backend connection
 
 # Start backend server:
 1. Clone repository and cd into it
