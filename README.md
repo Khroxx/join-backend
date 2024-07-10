@@ -14,8 +14,9 @@ local port on 127.0.0.1:8000 for backend connection
 ```
 2. Create and virtual environment
 ```bash 
-    python -m venv env # select correct Interpreter
+    python -m venv env
 ```
+## Select the correct Interpreter
 Linux:
 ```bash
     source env/bin/activate  
