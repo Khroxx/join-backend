@@ -1,5 +1,5 @@
 # Backend project
-This is python/django writte backend for my Join project (Kanban-Board) for Basic CRUD actions and user authentication
+This is a python/django written backend for my Join project (Kanban-Board) for Basic CRUD actions and user authentication
 Create, Read, Update and Delete database models for User, Todos, Subtasks 
 Login and Register yourself
 local port on 127.0.0.1:8000 for backend connection
@@ -14,10 +14,15 @@ local port on 127.0.0.1:8000 for backend connection
 ```
 2. Create and virtual environment
 ```bash 
-    python -m venv env
+    python -m venv env # select correct Interpreter
 ```
+Linux:
 ```bash
-    source env/bin/activate || # windows: env/Scripts/activate
+    source env/bin/activate  
+```
+Windows :
+```bash
+    source env/Scripts/activate
 ```
 3. Install requirements and migrations
 ```bash
