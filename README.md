@@ -23,7 +23,7 @@ source env/bin/activate
 ```
 Windows :
 ```bash
-source env/Scripts/activate
+env/Scripts/activate
 ```
 3. Install requirements and migrations
 ```bash
