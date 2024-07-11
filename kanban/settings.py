@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -43,6 +44,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'todos',
     'rest_framework.authtoken',
+    'docs'
     
     # 'guest_user',
 ]
@@ -93,6 +95,8 @@ DATABASES = {
     }
 }
 
+DOCS_ROOT = os.path.join(BASE_DIR, 'docs/_build/html')
+DOCS_ACCESS = 'public'
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

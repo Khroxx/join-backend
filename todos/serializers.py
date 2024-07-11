@@ -23,8 +23,7 @@ class RegisterSerializer(serializers.ModelSerializer):
         user = CustomUser.objects.create_user(
             email=validated_data['email'],
             username=validated_data['username'],
-            # phone=validated_data['phone']
-            phone = ''
+            phone = '',
         )
         return user
             

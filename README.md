@@ -39,3 +39,13 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+
+# Access Documentation
+```bash
+cd docs/
+```
+```bash
+make html
+```
+
+now you can open 127.0.0.1:8000/docs to read documentation
